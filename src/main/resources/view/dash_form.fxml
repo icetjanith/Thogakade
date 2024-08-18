@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="486.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4646e1" height="87.0" stroke="BLACK" strokeType="INSIDE" width="655.0" />
+      <Label layoutX="198.0" layoutY="14.0" prefHeight="58.0" prefWidth="258.0" text="Thogakade" textFill="WHITE">
+         <font>
+            <Font name="Roboto" size="45.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="140.0" fitWidth="200.0" layoutX="59.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/download%20(1).png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="385.0" layoutY="183.0" onAction="#btnAddCustomerOnAction" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #e74c3c;" text="ADD CUSTOMER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="387.0" layoutY="263.0" onAction="#btnViewCustomerOnAction" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #e74c3c;" text="VIEW CUSTOMER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
